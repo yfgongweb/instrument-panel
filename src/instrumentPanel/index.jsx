@@ -30,11 +30,11 @@ export default function InstrumentPanel() {
                     <p className="value_tip">最高发电量</p>
                 </Col>
                 <Col span={8}>
-                    <p className="value_style">500</p>
-                    <p className="value_tip">最高发电量</p>
+                    <p className="value_style">300</p>
+                    <p className="value_tip">最低发电量</p>
                 </Col><Col span={8}>
-                    <p className="value_style">500</p>
-                    <p className="value_tip">最高发电量</p>
+                    <p className="value_style">异常</p>
+                    <p className="value_tip">状态</p>
                 </Col>
             </Row>
             <EchartsLine />
